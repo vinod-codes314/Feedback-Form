@@ -1,0 +1,113 @@
+/* Reset some default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f7f9;
+  color: #333;
+  padding: 30px;
+}
+
+/* Form Container */
+main {
+  max-width: 700px;
+  margin: auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+header h1 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+header p {
+  color: #666;
+}
+
+/* Fieldset Styling */
+fieldset {
+  border: 2px solid #dcdcdc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+legend {
+  font-weight: bold;
+  color: #2c3e50;
+  padding: 0 10px;
+}
+
+/* Labels */
+label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+/* Inputs, Select, Textarea */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+/* Radio & Checkbox */
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 8px;
+  margin-top: 10px;
+}
+
+/* Inline labels for radio/checkbox */
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+  display: inline-block;
+  margin-right: 20px;
+  font-weight: normal;
+}
+
+/* Textarea */
+textarea {
+  resize: vertical;
+  margin-top: 10px;
+}
+
+/* Button */
+button {
+  display: block;
+  width: 100%;
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #2980b9;
+}
